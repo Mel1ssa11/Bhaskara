@@ -27,7 +27,7 @@ public class Bhaskara {
 
         if (a == 0) {
             JOptionPane.showMessageDialog(null,
-                    "Não é uma equação do segundo grau");
+                    "Nao é uma equação de segundo grau");
         } else {
 
             double delta = Math.pow(b, 2) - (4 * a * c);
@@ -35,7 +35,7 @@ public class Bhaskara {
             if (delta < 0) {
                 JOptionPane.showMessageDialog(null,
                         "Delta = " + delta +
-                        "\nA equação não possui raízes reais.");
+                        "A equação não possui raízes reais.");
             } else {
 
                 double x1 = (-b + Math.sqrt(delta)) / (2 * a);
